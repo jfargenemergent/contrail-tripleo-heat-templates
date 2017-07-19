@@ -18,6 +18,8 @@ yum install -y libguestfs libguestfs-tools openvswitch virt-install kvm libvirt 
 ```
 systemctl start libvirtd
 systemctl start openvswitch
+systemctl enable libvirtd
+systemctl enable openvswitch
 ```
 
 ## create and become stack user
